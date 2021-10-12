@@ -1,0 +1,35 @@
+"""grocery=["spanish","cucumber","ladyfinger","capsicum","gourd",55]
+print(grocery)
+num=[2,3,4,1,2,8,5,3,9,6]
+num.append(55)
+num.sort()
+num.reverse()
+print(num)
+numb=[]
+numb.append(5)
+numb.append(2)
+numb.append(7)
+numb.sort()
+numb.insert(0,8)
+print(numb)
+numb.remove(5)
+print(numb)
+numb.pop()
+print(numb)"""
+"""num=[2,3,4,1,2,8,5,3,9,6]
+num[4]=45
+print(num[0:4])
+print(num)"""
+#list>mutable>can change
+#tuple>immutable>can not change
+"""tp=(5,2,7)
+print(tp)"""
+a=7
+b=5
+print(a,b)
+temp=a
+a=b
+b=temp
+print(a,b)
+a,b=b,a
+print(a,b)
